@@ -7,7 +7,7 @@ REM -------------------------------------------------------------------
 REM
 REM                        autoupdate.bat
 REM
-REM Automatic RDP Wrapper installer and updater // (07-09-2019)
+REM Automatic RDP Wrapper installer and updater // (08-03-2021)
 REM -------------------------------------------------------------------
 REM Options:
 REM   -log        = redirect display output to the file autoupdate.log
@@ -27,10 +27,6 @@ REM -----------------------------------------
 REM Location of new/updated rdpwrap.ini files
 REM -----------------------------------------
 set rdpwrap_ini_update_github_1="https://raw.githubusercontent.com/prince11jose/rdpwrap/master/rdpwrap.ini"
-set rdpwrap_ini_update_github_2="https://raw.githubusercontent.com/asmtron/rdpwrap/master/res/rdpwrap.ini"
-set rdpwrap_ini_update_github_3="https://raw.githubusercontent.com/saurav-biswas/rdpwrap-1/patch-1/res/rdpwrap.ini"
-REM set rdpwrap_ini_update_github_3="https://raw.githubusercontent.com/....Extra.3...."
-REM set rdpwrap_ini_update_github_4="https://raw.githubusercontent.com/....Extra.4...."
 
 set autoupdate_bat="%~dp0autoupdate.bat"
 set autoupdate_log="%~dp0autoupdate.log"
